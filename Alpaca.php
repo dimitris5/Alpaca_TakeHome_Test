@@ -18,21 +18,16 @@ $duplicates = array();
 foreach(array_count_values($numbers) as $val => $c)
     if($c > 1) $duplicates[] = $val;
 
-
 foreach( $duplicates as $d )    
 {    
   echo "$d<br />";    
 } 
 
-
 $array67 = array();
 for( $i=1; $i<=67; $i++ )
 {
-
 $array67[] = $i;
-
 }
-
 
 echo "<br><br>c) Print out all missing numbers in sequence (so between 1-67, print out all numbers missing from the above array) in numerical order<br><br>";
 
